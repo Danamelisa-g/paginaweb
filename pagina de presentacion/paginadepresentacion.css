@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    overflow-x: auto;
+    height: 100vh;
+
+}
+.horizontal-page{
+    display:flex;
+    width: 400vw;
+    min-height: 100vh;
+    scroll-behavior: smooth;
+}
+.page-section{
+    flex: 0 0 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: linear-gradient(  #ED99BB,  #BE8AC0,#9280BC, #49386C);
+}

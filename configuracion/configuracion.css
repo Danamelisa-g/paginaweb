@@ -5,16 +5,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url('wp7124928-purple-gradient-wallpapers.jpg');
+    background-image: linear-gradient(  #ED99BB,  #BE8AC0,#9280BC, #49386C);
     background-size: cover; 
     background-position: center; 
     background-attachment: fixed; 
     background-repeat: no-repeat; 
-    width: ;
+    
     
 
 }
@@ -24,8 +25,8 @@ body{
     margin: 0 auto;
 }
 .announcement-bar{
-    background-color: rgb(218, 0, 116);
-    padding: 15px 0;
+    
+    padding: 20px 0px;
     
 
 }
@@ -38,15 +39,18 @@ body{
 .content-info {
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 70px;
     flex: 1;
+    
+    
   }
   
   p {
     display: flex;
     align-items: center;
-    gap: 15px;
-    font-size: 14px;
+    gap: 20px;
+    font-size: 20px;
+    height: 15px;
   }
   
   i {
@@ -136,6 +140,7 @@ header {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 main {
     display: flex;
@@ -149,11 +154,11 @@ main {
     text-align: center;
 }
 .profile-container {
-    background-color: rgba(195, 20, 243, 0.201);
+    background-color: rgba(255, 255, 255, 0.596);
     padding: 50px;
-    border-radius: 20px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    width: 600px;
+    border-radius: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 1000px;
 }
 .avatar {
     display: flex;
@@ -201,15 +206,15 @@ h2 {
 }
 
 .action-btn:hover {
-    background-color: #d3c3ff;
+    background-color: ;
 }
 
 .logout-btn {
-    background-color: #6d5cff;
+    background-color: #dd3ea0;
     color: white;
     margin-top: 20px;
 }
 
 .logout-btn:hover {
-    background-color: #4c3edd;
+    background-color: #dd3ea0;
 }
