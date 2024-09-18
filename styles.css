@@ -1,0 +1,109 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f2b6d1, #a79bd9);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 20px;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+header nav ul li a.sign-in {
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+header nav ul li a.register {
+    background-color: #da00f7;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+main {
+    text-align: center;
+}
+
+.profile-container {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 400px;
+}
+
+.avatar img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 1.5em;
+}
+
+.profile-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.action-btn, .logout-btn {
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #fefefe;
+    color: #333;
+}
+
+.action-btn {
+    background-color: #e0d7ff;
+    transition: background-color 0.3s ease;
+}
+
+.action-btn:hover {
+    background-color: #d3c3ff;
+}
+
+.logout-btn {
+    background-color: #6d5cff;
+    color: white;
+    margin-top: 20px;
+}
+
+.logout-btn:hover {
+    background-color: #4c3edd;
+}
