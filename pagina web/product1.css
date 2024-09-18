@@ -9,18 +9,25 @@
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(  #ED99BB,  #BE8AC0,#9280BC, #49386C);
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
 }
-
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    
 }
 .announcement-bar{
-    background-color: rgb(218, 0, 116);
-    padding: 15px 0;
+    background-color: #49386C;
+    padding: 20px 0px;
+    
     
 
 }
+
 
 .announcement-bar-content{
     display: flex;
@@ -61,7 +68,7 @@ body{
   
 
 header {
-    background-color: #fff;
+    background-color:  #ED99BB,  #BE8AC0,#9280BC, #49386C);
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
   }
   
@@ -170,7 +177,7 @@ h1, h2, h3 {
 }
 
 .back-to-home a {
-    color: blueviolet;
+    color: #fff;
     text-decoration: none;
     font-size: 1.1rem;
     display: flex;
@@ -182,14 +189,14 @@ h1, h2, h3 {
 }
 
 .back-to-home a:hover {
-    color: blueviolet;
+    color: #fff;
 }
 
 
 .product-details {
     flex: 1.5;
     margin-left: 2rem; 
-    color: blueviolet;
+    color: #fff;
     font-size: 25PX;
 }
 
@@ -200,7 +207,7 @@ h1, h2, h3 {
 }
 
 .product-details h3 {
-    color: blueviolet;
+    color: #49386C;
     margin-bottom: 1.5rem;
 }
 
@@ -235,7 +242,7 @@ h1, h2, h3 {
 
 
 footer {
-    background-color: blueviolet;
+    background-color: #49386C;
     color: white;
     text-align: center;
     padding: 1rem 0;
