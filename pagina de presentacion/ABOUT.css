@@ -68,9 +68,8 @@ body {
         position: absolute;
         top: 50px; 
         left: 50px; 
-    
-   
-    .main-title {
+   }
+   .main-title {
         font-size: 40px;
         font-weight: bold;
         color: white;
