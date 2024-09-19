@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+}
+body {
+    
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    overflow-x: auto; 
+    height: 00vh; 
+    .horizontal-page {
+        display: flex;
+        width: 200vw; 
+        height: 100vh; 
+        scroll-behavior: smooth; 
+    }
+    
+    
+    .page-section1 {
+        flex: 0 0 100vw; 
+        height: 100vh; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 36px;
+        color: white;
+        background-color: #ED99BB; /* Aquí aplicas el color que desees */
+    }
+    .page-section2 {
+        flex: 0 0 100vw; 
+        height: 100vh; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 36px;
+        color: white;
+        background-color: #BE8AC0; 
+    }
+    .page-section3 {
+        flex: 0 0 100vw; 
+        height: 100vh; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 36px;
+        color: white;
+        background-color: #9280BC; 
+    }
+        
+    .TEXT1 {
+        margin-top: -460px;
+        margin-left: -10px;
+        top: 40px;
+        font-size: 300px;
+        color: #fff;
+        font-weight: bold;
+        text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.8);
+    }
+.TEXT2{
+    margin-top: -360px;
+    margin-left: 1510px;
+    top: 40px;
+    font-size: 350px;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.8);
+
+}
+.TEXT3{
+    margin-top: -420px;
+    margin-left: 2000px;
+
+    top: 70px;
+    font-size: 370px;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.8);
+
+}
+.TEXT4{
+    margin-top: -460px;
+    margin-left: 3200px;
+
+    top: 50px;
+    font-size: 400px;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.8);
+
+}
+.parrafo1{
+    margin-top: -420px;
+    margin-left: 100px;
+    line-height: 1.6%;
+
+    top: 50px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.8);
+}
+
+.parrafo2{
+    margin-top: -420px;
+    margin-left: 100px;
+    line-height: 1.6%;
+
+    top: 50px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.8);
+}   
+.parrafo2{
+    margin-top: -420px;
+    margin-left: 100px;
+    line-height: 1.6%;
+
+    top: 50px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.8);
+}   

@@ -12,13 +12,47 @@ body {
     overflow-x: auto; 
     height: 00vh; 
 }
-.container{
-    max-width: 2000;
-    margin: 0 auto;
-}
-.content{
-    min-height: 50px;
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: #49386C;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    background-color: #ED99BB;
+    color: #fff;
 }
 
 .horizontal-page {
@@ -60,7 +94,7 @@ body {
 }
 .img1 {
     width: 550px;
-    top: 150px;
+    top: 80px;
     left: 0;
     
     
@@ -68,8 +102,9 @@ body {
 
 .img2 {
     width: 200px;
-    top: 450px;
+    top: 350px;
     left: 590px;
+    transition: cubic-bezier 2s;
     
 }
 
@@ -82,14 +117,14 @@ body {
 
 .img4 {
     width: 420px;
-    top: 150px;
+    top: 80px;
     left: 1800px;
     
 }
 
 .img5 {
     width: 540px;
-    top: 150px;
+    top: 80px;
     left: 2300px;
    
    
@@ -97,7 +132,7 @@ body {
 
 .img6 {
     width: 200px;
-    top: 550px;
+    top: 350px;
     left: 800px
     
 }
@@ -123,4 +158,20 @@ text{
         text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.8);
     
 }
+
+.TXT1{
+    margin-top: 150px;
+    margin-left: 150px;
+    text-align: end;
+    top: 30px;
+    font-size: 70px;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.8);
+    
+    
+}
+
+
+
 
