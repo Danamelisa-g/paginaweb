@@ -109,7 +109,7 @@ header {
 }
 
 .img3 {
-    width: 270px;
+    width: 230px;
     top: 450px;
     left: 1480px;
   
@@ -121,6 +121,14 @@ header {
     left: 1800px;
     
 }
+.img8 {
+    width: 250px;
+    top: 50px;
+    left: 1500px;
+  
+    
+}
+
 
 .img5 {
     width: 540px;
@@ -131,15 +139,15 @@ header {
 }
 
 .img6 {
-    width: 200px;
+    width: 190px;
     top: 350px;
     left: 800px
     
 }
 .img7 {
     width: 270px;
-    top: 150px;
-    left: 1480px;
+    top: 370px;
+    left: 1490px;
   
 }
 text{
